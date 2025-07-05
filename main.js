@@ -1,6 +1,6 @@
 
-let humanScore = 0;
 let computerScore = 0;
+ let humanScore = 0;
  let i = 0;
   let humanChoice, ComputerChoice;
   const rockButton = document.querySelector('#rock');
@@ -15,7 +15,7 @@ let computerScore = 0;
       updateRound();
     });
     paperButton.addEventListener("click", e =>{
-      humanVhoice = "paper";
+      humanChoice = "paper";
       getComputerChoice();
       playRound(humanChoice, ComputerChoice);
       ++i;
@@ -29,7 +29,7 @@ let computerScore = 0;
       updateRound();
     });
 
-function updateRound (){
+function updateRound(){
   const buttons = document.querySelector('.buttons');
   buttons.addEventListener('click', e => {
   let round = document.querySelector('#roundspan');
@@ -61,7 +61,6 @@ function getComputerChoice() {
   } else {
     ComputerChoice = "paper";
   }
-   console.log(ComputerChoice)
   return ComputerChoice;
 }
 
@@ -72,7 +71,6 @@ function playRound(humanChoice, ComputerChoice) {
     if (humanChoice == "rock" && ComputerChoice == "scissors"){
         msg.innerText = "You win. rock beats scissors.";
         ++humanScore;
-
     }
     else if  (humanChoice == "paper" && ComputerChoice == "rock"){
         msg.innerText = "You window. Paper beats RemotePlayback.";
@@ -90,14 +88,14 @@ function playRound(humanChoice, ComputerChoice) {
     }
     else if (ComputerChoice == "paper" && humanChoice == "rock"){
         msg.innerText = "You lose. paper beats rock";
-        computerScore++;
+        ++computerScore;
     }
     else if (ComputerChoice == "scissors" && humanChoice == "paper"){
         msg.innerText = "You lose. Paper beats rock.";
-        computerScore++;
+        ++computerScore;
     }
 
-    //scenario 3: It's a tie;
+    //scenario 3: Both choices are the same;
     else if (humanChoice === ComputerChoice) {
         msg.innerText = "It's a tie. You selected the same choice as the computer";
     }
