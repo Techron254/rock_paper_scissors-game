@@ -73,7 +73,7 @@ function playRound(humanChoice, ComputerChoice) {
         ++humanScore;
     }
     else if  (humanChoice == "paper" && ComputerChoice == "rock"){
-        msg.innerText = "You window. Paper beats RemotePlayback.";
+        msg.innerText = "You win. Paper beats Rock.";
         ++humanScore;
     }
     else if (humanChoice == "scissors" && ComputerChoice == "paper") {
