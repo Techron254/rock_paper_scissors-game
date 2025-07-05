@@ -4,4 +4,4 @@ I made this game to be playable via the console only, for now. I am planning to 
 
 #Edit:
 
-I managed to make the game playable on the UI. It was an exhillerating experience. Sky is the limit baby! Let's gooooo.
+I managed to make the game playable on the UI. It was an exhilarating experience. Sky is the limit baby! Let's gooooo.
