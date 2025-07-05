@@ -12,15 +12,16 @@ body {
 }
 h1 {
     color:hsl(240, 100%, 50%);
-    background-color: lch(65.49% 35.21 220.52);
+    background-color: lch(78.51% 33.97 216.82);
     padding: 1rem;
     width: 100%;
     position: fixed;
     top: 0px;
 }
 h3{
-    margin-top: 7rem;
-    margin-bottom: 3rem;
+    color: #05d64e;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 #question{
@@ -28,9 +29,9 @@ h3{
     font-style: italic;
     font-size: large;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 1rem;
-    background-color: rgba(102, 197, 39, 0.8);
+    background-color: rgb(15, 221, 36, 0.6);
     width: 50%;
     min-width: 300px;
     border-radius: 0.5rem;
@@ -52,13 +53,13 @@ button{
     background-color: hsl(0, 0%, 50%);
     padding: 0.5rem;
     width: 100px;
-    border: 2px solid hsl(96, 93%, 49%);
+    border: 2px solid hsl(0, 0%, 100%);
+    outline: 2px solid rgb(102, 255, 0);
     border-radius: 5rem;
     font-size: large;
     color: rgb(102, 255, 0);
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    box-shadow: 0px 0px 10px 5px rgb(104, 215, 30);
 }
 #round{
     color: aliceblue;
@@ -68,15 +69,15 @@ button{
 span{
     padding-left: 1rem;
 }
-#outcome {
+#msg {
     color: rgb(226, 242, 2);
-    font-size: larger;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 table{
-    margin: 2rem;
-    width: 40%;
+    margin: 1rem;
+    width: 50%;
     color: aliceblue;
     font-weight: 400;
     font-size: x-large;
@@ -85,5 +86,8 @@ th, td{
   padding: 1rem;
 }
 td{
-color: rgb(247, 11, 11);
+padding-top: 0;
+color: rgb(15, 221, 36);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2rem;
 }
