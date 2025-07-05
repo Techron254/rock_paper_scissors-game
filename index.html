@@ -4,15 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="">
-    <script src="main.js"></script>
-</head>
-</body>
-    <h1>This game is played entirely on the console</h1>
-<body>
-    
-=======
     <link rel="stylesheet" href="style.css">
     <script defer src="main.js"></script>
 
@@ -28,24 +19,23 @@
     <p class="direction">click any button below to select your choice:</p>
 
     <div class="buttons">
-        <button type="button" id="rock" onclick="getHumanChoice()">rock</button>
-        <button type="button" id="paper" onclick="getHumanChoice()">paper</button>
-        <button type="button" id="scissors" onclick="getHumanChoice()">scissors</button>
+        <button type="button" id="rock">rock</button>
+        <button type="button" id="paper">paper</button>
+        <button type="button" id="scissors">scissors</button>
     </div>
-    <p id="round">Round: <span>1</span></p>
-    <p id="outcome">waiting....</p>
+    <p id="round">Round: <span id="roundspan"></span></p>
+    <p id="msg">waiting....</p>
     <table>
         <tr>
-            <th>Your score</th>
-            <th>Computer score</th>
+            <th>Your Score</th>
+            <th>Computer Score</th>
         </tr>
         <tr>
             <td id="your-score">0</td>
-            <td id="Computer-score">0</td>
+            <td id="computer-score">0</td>
         </tr>
     </table>
 
 
 <body>
->>>>>>> 77efcd6 (modify the game from being played on the console to being played on the DOM. Still misbehaves but I am working on it)
 </html>
