@@ -40,6 +40,7 @@ h3{
     color: rgb(238, 255, 6);
     font-size: larger ;
     font-weight: 600;
+    margin: 1rem;
 }
 .buttons{
     width: 100%;
