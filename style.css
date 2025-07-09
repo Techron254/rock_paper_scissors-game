@@ -15,8 +15,6 @@ h1 {
     background-color: lch(78.51% 33.97 216.82);
     padding: 1rem;
     width: 100%;
-    position: fixed;
-    top: 0px;
 }
 h3{
     color: #05d64e;
